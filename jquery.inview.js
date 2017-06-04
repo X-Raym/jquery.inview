@@ -130,7 +130,7 @@
     }
   }
 
-  $(w).on("scroll resize scrollstop", function() {
+  $(w).on("scroll resize scrollstop orientationchange", function() {
     viewportSize = viewportOffset = null;
   });
 
